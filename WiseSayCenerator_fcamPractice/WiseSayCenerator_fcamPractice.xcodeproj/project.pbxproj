@@ -78,6 +78,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB54386626E650C500E307E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB6ECB3C26E3B12200EDFB2E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB54386726E650C800E307E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB6ECB3E26E3B12200EDFB2E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB54386826E650CA00E307E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB54386426E64BE900E307E5 /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AB6ECB2C26E3B12100EDFB2E = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +125,11 @@
 		AB6ECB3726E3B12200EDFB2E /* WiseSayCenerator_fcamPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AB54386826E650CA00E307E5 /* Model */,
+				AB54386726E650C800E307E5 /* View */,
+				AB54386626E650C500E307E5 /* Controller */,
 				AB6ECB3826E3B12200EDFB2E /* AppDelegate.swift */,
 				AB6ECB3A26E3B12200EDFB2E /* SceneDelegate.swift */,
-				AB6ECB3C26E3B12200EDFB2E /* ViewController.swift */,
-				AB6ECB3E26E3B12200EDFB2E /* Main.storyboard */,
-				AB54386426E64BE900E307E5 /* Quote.swift */,
 				AB6ECB4126E3B12200EDFB2E /* Assets.xcassets */,
 				AB6ECB4326E3B12200EDFB2E /* LaunchScreen.storyboard */,
 				AB6ECB4626E3B12200EDFB2E /* Info.plist */,
