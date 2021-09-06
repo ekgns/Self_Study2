@@ -1,5 +1,4 @@
 # 명언 생성기 완성 후 정리
-
 ## 패캠 강의 
 ### 배운점 
 1. Content Hugging
@@ -29,3 +28,5 @@ ViewController
 2. 데이터 모델(Quote)를 이용한 데이터 배열 생성하여 데이터 5개를 만들어 저장 
 3. 명언이 랜덤으로 생성될 수 있는 기능을 만듬
 
+# 결과물 
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/70513066/132227596-31d3769e-ce80-4644-89ca-2254afa5e9bc.gif)
