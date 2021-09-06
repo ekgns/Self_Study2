@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB54386526E64BE900E307E5 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54386426E64BE900E307E5 /* Quote.swift */; };
 		AB6ECB3926E3B12200EDFB2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ECB3826E3B12200EDFB2E /* AppDelegate.swift */; };
 		AB6ECB3B26E3B12200EDFB2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ECB3A26E3B12200EDFB2E /* SceneDelegate.swift */; };
 		AB6ECB3D26E3B12200EDFB2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ECB3C26E3B12200EDFB2E /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB54386426E64BE900E307E5 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		AB6ECB3526E3B12200EDFB2E /* WiseSayCenerator_fcamPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiseSayCenerator_fcamPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6ECB3826E3B12200EDFB2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB6ECB3A26E3B12200EDFB2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				AB6ECB3A26E3B12200EDFB2E /* SceneDelegate.swift */,
 				AB6ECB3C26E3B12200EDFB2E /* ViewController.swift */,
 				AB6ECB3E26E3B12200EDFB2E /* Main.storyboard */,
+				AB54386426E64BE900E307E5 /* Quote.swift */,
 				AB6ECB4126E3B12200EDFB2E /* Assets.xcassets */,
 				AB6ECB4326E3B12200EDFB2E /* LaunchScreen.storyboard */,
 				AB6ECB4626E3B12200EDFB2E /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB54386526E64BE900E307E5 /* Quote.swift in Sources */,
 				AB6ECB3D26E3B12200EDFB2E /* ViewController.swift in Sources */,
 				AB6ECB3926E3B12200EDFB2E /* AppDelegate.swift in Sources */,
 				AB6ECB3B26E3B12200EDFB2E /* SceneDelegate.swift in Sources */,
