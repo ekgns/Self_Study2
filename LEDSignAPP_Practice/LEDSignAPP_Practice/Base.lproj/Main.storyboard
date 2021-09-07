@@ -68,6 +68,9 @@
                                 <rect key="frame" x="165" y="414" width="84" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back Button"/>
+                                <connections>
+                                    <action selector="tabBackButton:" destination="XcK-rJ-EqP" eventType="touchUpInside" id="r6X-AB-lj2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uWw-0X-9db"/>
