@@ -101,11 +101,10 @@
 		AB7E6B4D26E79AC300F783F5 /* LEDSignAPP_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				AB7E6B8026E7A2D900F783F5 /* ViewController */,
 				AB7E6B4E26E79AC300F783F5 /* AppDelegate.swift */,
 				AB7E6B5026E79AC300F783F5 /* SceneDelegate.swift */,
-				AB7E6B5226E79AC300F783F5 /* ViewController.swift */,
 				AB7E6B5426E79AC300F783F5 /* Main.storyboard */,
-				AB7E6B7E26E7A12600F783F5 /* SeguePushViewController.swift */,
 				AB7E6B5726E79AC400F783F5 /* Assets.xcassets */,
 				AB7E6B5926E79AC400F783F5 /* LaunchScreen.storyboard */,
 				AB7E6B5C26E79AC400F783F5 /* Info.plist */,
@@ -129,6 +128,15 @@
 				AB7E6B7226E79AC400F783F5 /* Info.plist */,
 			);
 			path = LEDSignAPP_PracticeUITests;
+			sourceTree = "<group>";
+		};
+		AB7E6B8026E7A2D900F783F5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E6B7E26E7A12600F783F5 /* SeguePushViewController.swift */,
+				AB7E6B5226E79AC300F783F5 /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

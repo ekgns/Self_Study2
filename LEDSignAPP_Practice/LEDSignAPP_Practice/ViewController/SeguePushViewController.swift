@@ -14,5 +14,9 @@ class SeguePushViewController: UIViewController {
     }
     @IBAction func tabBackButton(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
+        
+        //  navigation 첫 번째 화면으로 감
+//        self.navigationController?.popToRootViewController(animated: true)
+        
     }
 }
