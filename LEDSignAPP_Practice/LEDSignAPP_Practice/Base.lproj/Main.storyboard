@@ -28,6 +28,9 @@
                                 <rect key="frame" x="149" y="404" width="117" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Segue 로 Present"/>
+                                <connections>
+                                    <segue destination="uC7-Xg-hEy" kind="presentation" id="RIb-Mw-fwU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcH-IP-kWi">
                                 <rect key="frame" x="169" y="456" width="77" height="30"/>
@@ -49,12 +52,12 @@
             </objects>
             <point key="canvasLocation" x="20" y="89"/>
         </scene>
-        <!--View Controller-->
+        <!--Segue Present View Controller-->
         <scene sceneID="l7e-7D-AJk">
             <objects>
-                <viewController id="uC7-Xg-hEy" sceneMemberID="viewController">
+                <viewController id="uC7-Xg-hEy" customClass="SeguePresentViewController" customModule="LEDSignAPP_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MnR-l6-Ff8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Segue 로 Present" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ge6-o4-tlU">
@@ -68,6 +71,9 @@
                                 <rect key="frame" x="165" y="433" width="84" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back Button"/>
+                                <connections>
+                                    <action selector="tapBackButton:" destination="uC7-Xg-hEy" eventType="touchUpInside" id="0SM-2P-10K"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XvS-Fb-XZn"/>
