@@ -17,6 +17,7 @@
 		AB7E6B7126E79AC400F783F5 /* LEDSignAPP_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E6B7026E79AC400F783F5 /* LEDSignAPP_PracticeUITests.swift */; };
 		AB7E6B7F26E7A12600F783F5 /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E6B7E26E7A12600F783F5 /* SeguePushViewController.swift */; };
 		AB7E6B8226E7A36300F783F5 /* SeguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E6B8126E7A36300F783F5 /* SeguePresentViewController.swift */; };
+		AB7E6B8426E7A60900F783F5 /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E6B8326E7A60900F783F5 /* CodePushViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AB7E6B7226E79AC400F783F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB7E6B7E26E7A12600F783F5 /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
 		AB7E6B8126E7A36300F783F5 /* SeguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePresentViewController.swift; sourceTree = "<group>"; };
+		AB7E6B8326E7A60900F783F5 /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				AB7E6B7E26E7A12600F783F5 /* SeguePushViewController.swift */,
 				AB7E6B5226E79AC300F783F5 /* ViewController.swift */,
 				AB7E6B8126E7A36300F783F5 /* SeguePresentViewController.swift */,
+				AB7E6B8326E7A60900F783F5 /* CodePushViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB7E6B7F26E7A12600F783F5 /* SeguePushViewController.swift in Sources */,
+				AB7E6B8426E7A60900F783F5 /* CodePushViewController.swift in Sources */,
 				AB7E6B5326E79AC300F783F5 /* ViewController.swift in Sources */,
 				AB7E6B4F26E79AC300F783F5 /* AppDelegate.swift in Sources */,
 				AB7E6B8226E7A36300F783F5 /* SeguePresentViewController.swift in Sources */,
