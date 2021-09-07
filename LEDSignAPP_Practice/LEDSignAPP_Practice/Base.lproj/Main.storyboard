@@ -44,6 +44,9 @@
                                 <rect key="frame" x="161" y="505" width="96" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="코드로 Present"/>
+                                <connections>
+                                    <action selector="tapCodePresentButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q15-54-Zsn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -87,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="811" y="343"/>
         </scene>
-        <!--View Controller-->
+        <!--Code Present View Controller-->
         <scene sceneID="wvk-XC-opF">
             <objects>
-                <viewController id="Ldk-Zy-kmt" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CodePresentViewController" id="Ldk-Zy-kmt" customClass="CodePresentViewController" customModule="LEDSignAPP_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2eG-aW-teb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,6 +104,7 @@
                                 <state key="normal" title="Back Button"/>
                                 <connections>
                                     <action selector="tapBackButton:" destination="uC7-Xg-hEy" eventType="touchUpInside" id="d2S-uR-iw3"/>
+                                    <action selector="tapBackButton:" destination="Ldk-Zy-kmt" eventType="touchUpInside" id="inR-n3-94n"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="코드로 Present" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBM-TW-dcC">
