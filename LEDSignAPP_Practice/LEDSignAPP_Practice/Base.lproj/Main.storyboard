@@ -20,6 +20,9 @@
                                 <rect key="frame" x="158" y="356" width="99" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Segue 로 Push"/>
+                                <connections>
+                                    <segue destination="XcK-rJ-EqP" kind="show" id="ilL-5C-BVB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v64-Ch-TUA">
                                 <rect key="frame" x="149" y="404" width="117" height="30"/>
@@ -46,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="20" y="89"/>
         </scene>
-        <!--View Controller-->
+        <!--Segue Push View Controller-->
         <scene sceneID="8UV-Qo-8R2">
             <objects>
-                <viewController id="XcK-rJ-EqP" sceneMemberID="viewController">
+                <viewController id="XcK-rJ-EqP" customClass="SeguePushViewController" customModule="LEDSignAPP_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nax-qZ-qtX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,6 +73,7 @@
                         <viewLayoutGuide key="safeArea" id="uWw-0X-9db"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="YZp-p6-3no"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zry-fZ-tc6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
