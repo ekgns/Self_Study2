@@ -15,6 +15,7 @@
 		AB7E6B5B26E79AC400F783F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7E6B5926E79AC400F783F5 /* LaunchScreen.storyboard */; };
 		AB7E6B6626E79AC400F783F5 /* LEDSignAPP_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E6B6526E79AC400F783F5 /* LEDSignAPP_PracticeTests.swift */; };
 		AB7E6B7126E79AC400F783F5 /* LEDSignAPP_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E6B7026E79AC400F783F5 /* LEDSignAPP_PracticeUITests.swift */; };
+		AB7E6B7F26E7A12600F783F5 /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E6B7E26E7A12600F783F5 /* SeguePushViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AB7E6B6C26E79AC400F783F5 /* LEDSignAPP_PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDSignAPP_PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7E6B7026E79AC400F783F5 /* LEDSignAPP_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDSignAPP_PracticeUITests.swift; sourceTree = "<group>"; };
 		AB7E6B7226E79AC400F783F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7E6B7E26E7A12600F783F5 /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AB7E6B5026E79AC300F783F5 /* SceneDelegate.swift */,
 				AB7E6B5226E79AC300F783F5 /* ViewController.swift */,
 				AB7E6B5426E79AC300F783F5 /* Main.storyboard */,
+				AB7E6B7E26E7A12600F783F5 /* SeguePushViewController.swift */,
 				AB7E6B5726E79AC400F783F5 /* Assets.xcassets */,
 				AB7E6B5926E79AC400F783F5 /* LaunchScreen.storyboard */,
 				AB7E6B5C26E79AC400F783F5 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7E6B7F26E7A12600F783F5 /* SeguePushViewController.swift in Sources */,
 				AB7E6B5326E79AC300F783F5 /* ViewController.swift in Sources */,
 				AB7E6B4F26E79AC300F783F5 /* AppDelegate.swift in Sources */,
 				AB7E6B5126E79AC300F783F5 /* SceneDelegate.swift in Sources */,
