@@ -13,6 +13,6 @@ class CodePresentViewController: UIViewController {
         super.viewDidLoad()
     }
     @IBAction func tapBackButton(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
 }
