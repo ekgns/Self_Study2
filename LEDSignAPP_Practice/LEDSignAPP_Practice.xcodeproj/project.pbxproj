@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB6DB9422713100900223B81 /* LEDBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6DB9412713100900223B81 /* LEDBoard.storyboard */; };
+		AB6DB945271312D400223B81 /* LEDBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6DB944271312D400223B81 /* LEDBoardVC.swift */; };
+		AB6DB9472713159F00223B81 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6DB9462713159F00223B81 /* SettingVC.swift */; };
 		AB7E6B4F26E79AC300F783F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E6B4E26E79AC300F783F5 /* AppDelegate.swift */; };
 		AB7E6B5126E79AC300F783F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E6B5026E79AC300F783F5 /* SceneDelegate.swift */; };
 		AB7E6B5326E79AC300F783F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E6B5226E79AC300F783F5 /* ViewController.swift */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB6DB9412713100900223B81 /* LEDBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LEDBoard.storyboard; sourceTree = "<group>"; };
+		AB6DB944271312D400223B81 /* LEDBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDBoardVC.swift; sourceTree = "<group>"; };
+		AB6DB9462713159F00223B81 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 		AB7E6B4B26E79AC300F783F5 /* LEDSignAPP_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDSignAPP_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7E6B4E26E79AC300F783F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7E6B5026E79AC300F783F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +90,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB6DB93F27130F7E00223B81 /* 화면전달 */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E6B5426E79AC300F783F5 /* Main.storyboard */,
+				AB7E6B8026E7A2D900F783F5 /* ViewController */,
+			);
+			name = "화면전달";
+			path = "화면전달";
+			sourceTree = "<group>";
+		};
+		AB6DB94027130FE000223B81 /* LEDBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AB6DB943271312AF00223B81 /* Viewcontroller */,
+				AB6DB9412713100900223B81 /* LEDBoard.storyboard */,
+			);
+			path = LEDBoard;
+			sourceTree = "<group>";
+		};
+		AB6DB943271312AF00223B81 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				AB6DB944271312D400223B81 /* LEDBoardVC.swift */,
+				AB6DB9462713159F00223B81 /* SettingVC.swift */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
 		AB7E6B4226E79AC300F783F5 = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +141,10 @@
 		AB7E6B4D26E79AC300F783F5 /* LEDSignAPP_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				AB7E6B8026E7A2D900F783F5 /* ViewController */,
+				AB6DB94027130FE000223B81 /* LEDBoard */,
+				AB6DB93F27130F7E00223B81 /* 화면전달 */,
 				AB7E6B4E26E79AC300F783F5 /* AppDelegate.swift */,
 				AB7E6B5026E79AC300F783F5 /* SceneDelegate.swift */,
-				AB7E6B5426E79AC300F783F5 /* Main.storyboard */,
 				AB7E6B5726E79AC400F783F5 /* Assets.xcassets */,
 				AB7E6B5926E79AC400F783F5 /* LaunchScreen.storyboard */,
 				AB7E6B5C26E79AC400F783F5 /* Info.plist */,
@@ -254,6 +288,7 @@
 				AB7E6B5B26E79AC400F783F5 /* LaunchScreen.storyboard in Resources */,
 				AB7E6B5826E79AC400F783F5 /* Assets.xcassets in Resources */,
 				AB7E6B5626E79AC300F783F5 /* Main.storyboard in Resources */,
+				AB6DB9422713100900223B81 /* LEDBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB7E6B7F26E7A12600F783F5 /* SeguePushViewController.swift in Sources */,
+				AB6DB9472713159F00223B81 /* SettingVC.swift in Sources */,
+				AB6DB945271312D400223B81 /* LEDBoardVC.swift in Sources */,
 				AB7E6B8426E7A60900F783F5 /* CodePushViewController.swift in Sources */,
 				AB7E6B5326E79AC300F783F5 /* ViewController.swift in Sources */,
 				AB7E6B4F26E79AC300F783F5 /* AppDelegate.swift in Sources */,
