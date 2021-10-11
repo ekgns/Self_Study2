@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout 가로층 또는 세로 층으로 들어가는 설정을 가진다 -->
+<!-- orientation 가로 세로를 설정하는 설정 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:text="신장"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!-- match_parent 부모요소에 맞추겠다  -->
+    <!-- wrap_content 컨텐츠에 맞추겠다  -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>  <!-- 키보드가 넘버 타입으로 올라온다 -->
+
+    <TextView
+        android:text="체중"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"/> <!-- 키보드가 넘버 타입으로 올라온다 -->
+
+    <Button
+        android:text="확인하기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
