@@ -27,7 +27,7 @@
         <!--View Controller-->
         <scene sceneID="Gak-5E-xEs">
             <objects>
-                <viewController id="Jyj-kP-Rw2" sceneMemberID="viewController">
+                <viewController id="Jyj-kP-Rw2" customClass="ViewController" customModule="TodoList_Exam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0nT-C3-c29">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -36,7 +36,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="83t-OQ-0tt" style="IBUITableViewCellStyleDefault" id="akj-XS-uYy">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="83t-OQ-0tt" style="IBUITableViewCellStyleDefault" id="akj-XS-uYy">
                                         <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="akj-XS-uYy" id="uHD-cT-HM3">
@@ -66,9 +66,20 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oCh-0R-6MZ">
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="mvo-43-9sv"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="wJr-mF-OVu"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="mvo-43-9sv">
+                            <connections>
+                                <action selector="tapEditButton:" destination="Jyj-kP-Rw2" id="yzp-yi-XC1"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="wJr-mF-OVu">
+                            <connections>
+                                <action selector="tapAddButton:" destination="Jyj-kP-Rw2" id="IDa-D2-Aq8"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="gRM-fI-akI" id="tyS-Tk-CI5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rgb-TH-nVc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
